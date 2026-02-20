@@ -8,15 +8,9 @@ Talk to your Amazon seller data using natural language prompts. Ask questions, g
 - **Amazon seller data** – Connect your Amazon Seller Central data (sales, inventory, reports)
 - **Prompt-based interface** – No SQL or dashboards required; just type what you want to know
 
-## Publish to GitHub (one-time)
+## Repo
 
-1. Create a [Personal Access Token](https://github.com/settings/tokens) with **repo** scope.
-2. In PowerShell from the project folder:
-   ```powershell
-   $env:GITHUB_TOKEN = "your_token_here"
-   .\scripts\create-github-repo.ps1
-   ```
-   The script creates the repo `amazon-seller-data-chat` under your account and pushes this code.
+**[github.com/razajohri/my-amazon-brain](https://github.com/razajohri/my-amazon-brain)** — push with `git push origin main`.
 
 ## Getting started
 
